@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
-    package="com.gigamole.shadowlayout"
+    package="com.ytjojo.shadowlayout.demo"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
@@ -9,13 +9,19 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="app.mosn.zdepthshadowsample.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name="app.mosn.zdepthshadowsample.ChangeZDepthActivity"/>
+        <activity android:name="app.mosn.zdepthshadowsample.SimpleZDepthActivity"/>
+        <activity android:name="app.mosn.zdepthshadowsample.SimpleAutoActivity"/>
+        <activity android:name="app.mosn.zdepthshadowsample.SimpleAngleAutoActivity"/>
+        <activity android:name="app.mosn.zdepthshadowsample.SimplePathShadowActivity"/>
+        <activity android:name="app.mosn.zdepthshadowsample.BlurMaskFilterActivity"/>
     </application>
 
 </manifest>
